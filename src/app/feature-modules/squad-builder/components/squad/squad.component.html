@@ -1,0 +1,40 @@
+<h2 class="title">{{ 'squad.title' | translate }}</h2>
+<div class="squad">
+  <div class="squad__actions-container">
+    <app-players-list [affectsSquad]="true" />
+    <button (click)="clearSquad()" class="squad__button"></button>
+  </div>
+  <div class="squad__container">
+    <div class="squad__pitch">
+      <div class="squad__positions squad__positions--goalkeeper">
+        <app-position
+          *ngFor="let position of squad.goalkeeper"
+          [imageSource]="
+            'assets/images/players/player-' + position.id + '.webp'
+          " />
+      </div>
+
+      <div class="squad__positions squad__positions--defenders">
+        <app-position
+          *ngFor="let position of squad.defenders"
+          [imageSource]="
+            'assets/images/players/player-' + position.id + '.webp'
+          " />
+      </div>
+      <div class="squad__positions squad__positions--midfielders">
+        <app-position
+          *ngFor="let position of squad.midfielders"
+          [imageSource]="
+            'assets/images/players/player-' + position.id + '.webp'
+          " />
+      </div>
+      <div class="squad__positions squad__positions--strikers">
+        <app-position
+          *ngFor="let position of squad.strikers"
+          [imageSource]="
+            'assets/images/players/player-' + position.id + '.webp'
+          " />
+      </div>
+    </div>
+  </div>
+</div>

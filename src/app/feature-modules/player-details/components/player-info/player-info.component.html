@@ -1,0 +1,45 @@
+<div class="player-info" *ngIf="player">
+  <h2 class="player-info__title">{{ 'player.info.title' | translate }}</h2>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.first.name' | translate }}
+    </p>
+    <p>{{ player.firstName }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.last.name' | translate }}
+    </p>
+    <p>{{ player.lastName }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.position' | translate }}
+    </p>
+    <p>{{ player.position }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.current.club' | translate }}
+    </p>
+    <p>{{ player.currentClub }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.date.of.birth' | translate }}
+    </p>
+    <p>{{ player.dateOfBirth }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.height' | translate }}
+    </p>
+    <p>{{ player.height }}</p>
+  </div>
+  <div class="player-info__container">
+    <p class="player-info__detail">
+      {{ 'player.info.label.nationality' | translate }}
+    </p>
+    <p>{{ player.nationality }}</p>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<ng-container *ngIf="player">
+  <h2>
+    {{ player.firstName }} {{ player.lastName }}
+    {{ 'player.detail.title' | translate }}:
+  </h2>
+  <p>
+    <span class="color-quaternary">
+      {{ 'player.detail.position.label' | translate }}
+    </span>
+    {{ player.position }}
+  </p>
+</ng-container>

@@ -1,0 +1,19 @@
+.button {
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  background: none center;
+  background-size: contain;
+
+  &.flag-en {
+    background-image: url('assets/images/united-kingdom.webp');
+  }
+
+  &.flag-pl {
+    background-image: url('../assets/images/poland.webp');
+  }
+}

@@ -1,0 +1,23 @@
+.players-list {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+
+  @media (max-width: 1100px) {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  &__club-info {
+    align-self: flex-start;
+  }
+
+  &__dropdown {
+
+    &-label {
+      color: var(--app-tertiary-color);
+      font-weight: 900;
+    }
+  }
+}

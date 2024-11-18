@@ -1,0 +1,32 @@
+.position {
+  &__button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  &__image {
+    border-radius: 50%;
+    width: 10rem;
+    display: block;
+    aspect-ratio: 1/1;
+
+    @media (min-width: 1084px) and (max-width: 1300px) {
+      width: 5.5rem;
+
+    }
+
+    @media (min-width: 768px ) and (max-width: 1084px ) {
+      width:5rem;
+    }
+
+    @media (max-width: 768px ) {
+      width: 4rem;
+    }
+
+    @media (max-width: 600px) {
+      transform: rotateZ(90deg);
+    }
+  }
+}

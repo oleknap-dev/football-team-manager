@@ -1,0 +1,11 @@
+<button
+  (click)="switchLanguage()"
+  [ngClass]="{
+    'flag-en': currentLanguage === 'pl',
+    'flag-pl': currentLanguage === 'en'
+  }"
+  class="button"></button>
+
+<main>
+  <router-outlet />
+</main>

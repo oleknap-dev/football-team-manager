@@ -1,0 +1,37 @@
+{
+  "app.title": "Menadżer drużyny piłkarskiej",
+  "club.info.title": "Informacje o graczu:",
+  "player.profile.title": "Profil Gracza:",
+  "player.info.label": {
+    "main": "Aktualny gracz:",
+    "first.name": "Imię:",
+    "last.name": "Nazwisko:",
+    "position": "Pozycja:",
+    "current.club": "Aktualny klub:",
+    "career": "Kariera:    ",
+    "date.of.birth": "Data urodzenia:",
+    "height": "Wysokosć:",
+    "nationality": "Narodowosć:"
+  },
+  "player.detail": {
+    "title": "Szczegóły",
+    "position.label": "Pozycja:"
+  },
+  "players.list.dropdown": {
+    "label": "Wybierz zawodnika",
+    "filter": {
+      "label": "Filtruj po pozycji",
+      "goalkeeper": "Bramkarz",
+      "defender": "Obrońca",
+      "midfielder": "Pomocnik",
+      "striker": "Napastnik"
+    }
+  },
+  "dashboard.card.top": "Zbuduj swój wymarzony zespół!",
+  "dashboard.card.top.description": "Witamy w Menadżerze Drużyny Piłkarskiej! Wybierz swoich ulubionych zawodników z naszej obszernej listy i zbuduj wymarzony zespół piłkarski.",
+  "dashboard.card.left.title": "Kreator Składu",
+  "dashboard.card.left.description": "Zbuduj swój własny wymarzony zespół, wybierając ulubionych zawodników z listy",
+  "dashboard.card.right.title": "Profil Zawodników",
+  "dashboard.card.right.description": "Dowiedz się więcej o piłkarzach dzięki szczegółowym profilom, które podkreślają ich osobiste i zawodowe podróże",
+  "squad.title": "Kreator Składu"
+}

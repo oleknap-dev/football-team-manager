@@ -1,0 +1,18 @@
+.player-info {
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  &__detail {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+}

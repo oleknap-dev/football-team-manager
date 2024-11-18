@@ -1,0 +1,50 @@
+@use './variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: var(--font-family), serif !important;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--app-background-color);
+  color: var(--app-primary-text-color);
+  scroll-behavior: smooth;
+  min-height: 100%;
+  width: 100vw;
+}
+
+html {
+  font-size: 10px;
+}
+
+.players-list__dropdown {
+  .mat-mdc-text-field-wrapper.mdc-text-field {
+    background-color: var(--app-primary-color);
+  }
+
+  .mat-mdc-select-value-text {
+    color: var(--app-tertiary-color);
+    font-weight: 600;
+  }
+
+  .mat-mdc-select-arrow,
+  .mat-mdc-form-field.mat-focused .mat-mdc-select-arrow {
+    color: var(--app-tertiary-color) !important;
+  }
+
+  .mdc-text-field--filled:not(.mdc-text-field--disabled)
+    .mdc-line-ripple::after {
+    border-color: var(--app-primary-color);
+  }
+}
+
+div.mat-mdc-select-panel {
+  background-color: #141414 !important;
+  padding: 0 !important;
+}

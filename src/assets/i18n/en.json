@@ -1,0 +1,36 @@
+{
+  "app.title": "Football team manager",
+  "player.info.title": "Player information:",
+  "player.profile.title": "Player Profile",
+  "player.info.label": {
+       "main": "Current player:",
+       "first.name": "First name:",
+       "last.name": "Last name:",
+       "position": "Position:",
+       "current.club": "Current club:",
+       "date.of.birth": "Date of birth:",
+       "height": "Height:",
+       "nationality": "Nationality"
+  },
+  "player.detail": {
+    "title": "Details",
+    "position.label": "Position:"
+  },
+  "players.list.dropdown": {
+    "label": "Choose the player",
+    "filter": {
+      "label": "Filter by position",
+      "goalkeeper": "Goalkeeper",
+      "defender": "Defender",
+      "midfielder": "Midfielder",
+      "striker": "Striker"
+    }
+  },
+  "dashboard.card.top": "Build your Dream Team!",
+  "dashboard.card.top.description": "Welcome to Football Team Manager! Select your favorite players from our extensive list and build your dream football team.",
+  "dashboard.card.left.title": "Squad Builder",
+  "dashboard.card.left.description": "Build your own dream team by selecting your favourites players from the list",
+  "dashboard.card.right.title": "Players Profile",
+  "dashboard.card.right.description": "Find out more about football players with detailed profiles highlighting their personal and career journeys",
+  "squad.title": "Squad Builder"
+}

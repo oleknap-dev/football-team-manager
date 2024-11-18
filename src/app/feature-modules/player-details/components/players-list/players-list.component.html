@@ -1,0 +1,35 @@
+<div class="players-list">
+  <mat-form-field appearance="fill" class="players-list__dropdown">
+    <mat-label class="players-list__dropdown-label">
+      {{ 'players.list.dropdown.label' | translate }}
+    </mat-label>
+    <mat-select>
+      <mat-option
+        (click)="selectPlayer(player)"
+        *ngFor="let player of filteredPlayers"
+        [class.selected]="player === selectedPlayer">
+        <span>{{ player.firstName }} {{ player.lastName }}</span>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="players-list__dropdown">
+    <mat-label class="players-list__dropdown-label">{{
+      'players.list.dropdown.filter.label' | translate
+    }}</mat-label>
+    <mat-select>
+      @for (position of positionOptions; track position) {
+        <mat-option
+          (click)="filterPlayers(position.value)"
+          [class.selected]="position.value === selectedPosition"
+          [value]="position.value"
+          >{{
+            'players.list.dropdown.filter.' + position.label
+              | lowercase
+              | translate
+          }}</mat-option
+        >
+      }
+    </mat-select>
+  </mat-form-field>
+</div>
+<app-player-info *ngIf="showInfo" [player]="selectedPlayer" />

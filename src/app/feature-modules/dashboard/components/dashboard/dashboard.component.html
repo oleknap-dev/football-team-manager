@@ -1,0 +1,39 @@
+<div class="dashboard">
+  <div class="dashboard__container">
+    <div class="dashboard__background-image">
+      <h1 class="dashboard__title">{{ 'app.title' | translate }}</h1>
+    </div>
+    <div class="dashboard__cards">
+      <div class="dashboard__card dashboard__card--top">
+        <h2 class="dashboard__card dashboard__card--top__title">
+          {{ 'dashboard.card.top' | translate }}
+        </h2>
+        <p class="dashboard__card dashboard__card--top__label">
+          {{ 'dashboard.card.top.description' | translate }}
+        </p>
+      </div>
+      <div class="dashboard__card dashboard__card--left">
+        <h3 class="dashboard__card dashboard__card--left__title">
+          {{ 'dashboard.card.left.title' | translate }}
+        </h3>
+        <p class="dashboard__card dashboard__card--left__label">
+          {{ 'dashboard.card.left.description' | translate }}
+        </p>
+        <a
+          class="dashboard__card dashboard__card--left__button"
+          routerLink="/squad-builder"></a>
+      </div>
+      <div class="dashboard__card dashboard__card--right">
+        <h3 class="dashboard__card dashboard__card--right__title">
+          {{ 'dashboard.card.right.title' | translate }}
+        </h3>
+        <p class="dashboard__card dashboard__card--right__label">
+          {{ 'dashboard.card.right.description' | translate }}
+        </p>
+        <a
+          class="dashboard__card dashboard__card--right__button"
+          routerLink="/player-profile"></a>
+      </div>
+    </div>
+  </div>
+</div>
